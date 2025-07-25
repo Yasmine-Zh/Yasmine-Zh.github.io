@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Yaxuan (Yasmine) Zhang</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 14px;
+            max-width: 800px;
+            margin: 2em auto;
+            background-color: #f9f9f9;
+            color: #212529;
+        }
+        header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+            background-color: #0077b6;
+            color: white;
+            padding: 1.4em 1.2em;
+            border-radius: 8px;
+            
+        }
+        .contact {
+            font-size: 13px;
+            margin-top: 0.3em;
+        }
+        a { 
+            color: inherit;
+            text-decoration: underline; 
+            font-weight: 500; 
+        }
+        a:hover { 
+            color: #003366; 
+        }
+        h2 {
+            color: #0077b6;
+            border-bottom: 2px solid #dee2e6;
+            padding-bottom: 4px;
+            margin-top: 28px;
+        }
+        .section { margin-bottom: 1em; }
+        .subsection:hover {
+            background-color: #e8f1fb;
+            transition: background-color 0.2s ease;
+        }
+        .header-line {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        .subpoints {
+            font-size: 13px;
+            margin: 0 0 6px 1em;
+            padding-left: 1.2em;
+            color: #343a40;
+        }
+        .subpoints:hover {
+            background-color: #e8f1fb;
+            transition: background-color 0.2s ease;
+        }
+        ul.subpoints { list-style: disc; margin-top: 4px; }
+        li { margin: 2px 0; }
+    
+.skills-inline {
+    font-size: 12px;
+    font-style: italic;
+    color: #495057;
+    margin: -4px 0 10px 0;
+}
+
+@media print {
+  header {
+    -webkit-print-color-adjust: exact; /* Chrome/Safari */
+    print-color-adjust: exact;         /* Firefox */
+  }
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1 style="margin: 0; font-size: 30px;">Yaxuan (Yasmine) Zhang</h1>
+        <div class="contact" style="text-align: right;">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/googlemaps.svg" alt="googlemaps" width="14" style="vertical-align: middle; margin-right: 4px;">London, UK  · <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/imessage.svg" alt="twilio" width="14" style="vertical-align: middle; margin-right: 4px;">+44 (0)7353231053<br>
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="minutemailer" width="14" style="vertical-align: middle; margin-right: 4px;">yaxuanzhangruc@gmail.com <br>
+            <a href="https://www.linkedin.com/in/yaxuan-zhang-413911335"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" width="14" style="vertical-align: middle; margin-right: 4px;">LinkedIn</a> · <a href="https://Yasmine-Zh.github.io/"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" width="14" style="vertical-align: middle; margin-right: 4px;">GitHub</a>
+        </div>
+    </header>
+
+    <div class="section">
+        <h2>Summary</h2>
+        <div class="subsection"><p>Creative ML engineer driven by a deep belief in AI and a strong execution mindset. Known as the “team sunshine” and “idea generator,” I bring energy and fresh perspectives to every challenge — embracing change and inspiring creativity. From system design to pair programming, which I genuinely enjoy, I thrive on making ideas real — fast, precise, and with lasting impact.</p></div>
+    </div>
+
+    <div class="section">
+        <h2>Experience</h2>
+        
+
+    <div class="subsection">
+    <div class="header-line">
+        <div>Senior Machine Learning Engineer, <strong>Local Life Services, Bytedance</strong></div>
+        <div>2023.4 - 2025.6</div>
+    </div>
+
+    
+        <p style="margin: 0.5em 0 0.2em 1em;"><i><strong>Business Diagnosis & Agent System</strong></i></p>
+        <ul class="subpoints">
+            <li><strong>Proposed and led the design of <i>TaskBrain</i></strong>, an AI-powered agent for personalized merchant strategy recommendation, integrating diagnosis, task generation, and BD/merchant enablement into a unified system.</li>
+            
+                <!-- <ul class="subpoints"> -->
+                    
+                        <li><strong>Introduced the “Five Merchant Forces” diagnostic framework</strong> and led the development of the <strong>Diagnosis Agent plugin</strong> in the CRM conversational system, delivering <strong>interpretable strategy recommendations with SHAP-based insights and RAG-driven guides</strong>; achieved 89% satisfaction in usability surveys.</li>
+                    
+                        <li><strong>Architected the end-to-end solution</strong>, combining multi-granularity GMV forecasting models (store/product/video/live) with <strong>Transformer-based temporal encoders</strong> and upgraded precision with multi-task learning.</li>
+                    
+                        <li><strong>Pioneered the integration of LLM agents</strong> to generate merchant-specific strategies, summary insights, and adaptive recommendation rationales across CRM and Merchant AI-dialogue and to enable instant feedbacks and ad-hoc analysis.</li>
+                    
+                        <li>Drove measurable outcomes including <strong>+7.49% lift in average merchant GMV, 7.8% CTR, and +292% increase in strategy completion rate</strong></li>
+                    
+                <!-- </ul> -->
+            
+        </ul>
+        
+    
+        <p style="margin: 0.5em 0 0.2em 1em;"><i><strong>Merchant & Lead GMV Forecasting & Prediction</strong></i></p>
+        <ul class="subpoints">
+            <li><strong>Spearheaded end-to-end 30d/7d-GMV prediction systems</strong> for both lead merchants (pre-onboarding) and onboarded merchants (post-activation), supporting segmentation, diagnostics, and high-value lead follow-up.</li>
+            
+                <!-- <ul class="subpoints"> -->
+                    
+                        <li>Employed a multi-model pipeline (a <strong>XGBoost</strong> interval classifier and a <strong>Deep&Cross + Temporal Transformer(14d) Regressor</strong>), boosting accuracy@30% from 39.5%->81% and Recall@P70 +50%</li>
+                    
+                        <li>Designed a “High-GMV” tag system that raised <strong>high-value lead coverage from 8%->21%</strong>, with top-tagged leads achieving <strong>ARPU +105% over baseline</strong></li>
+                    
+                        <li>Standardized GMV metrics and A/B test pipelines; model upgrade to lead-sequence predictor drove +15.3% new-store ARPU gain with stable tag coverage.</li>
+                    
+                <!-- </ul> -->
+            
+        </ul>
+        
+    
+        <p style="margin: 0.5em 0 0.2em 1em;"><i><strong>POI Category Correction System</strong></i></p>
+        <ul class="subpoints">
+            <li><strong>Led end-to-end development of a correction system</strong> to realign 36M+ POI category labels with internal standards across the Douyin ecosystem.</li>
+            
+                <!-- <ul class="subpoints"> -->
+                    
+                        <li><strong>Integrated model prediction, rule engine, human-in-loop auditing, and category locking logic</strong> for sustained performance. </li>
+                    
+                        <li>Developed a hybrid <strong>LightGBM+RuleEngine</strong> framework, later upgraded to a <strong>Deep Fusion Model with HierarchicalLoss</strong>.</li>
+                    
+                        <li>Used a <strong>rule engine with confidence-based locking</strong> crowsourcing framework, and designed semi-supervised correction agents for high-frequency POIs with <strong>90%+ recall</strong>.</li>
+                    
+                        <li>Classification accuracy improved from <strong>60%->94%</strong>, outperforming industry baselines under consistent evaluation metrics verified by human experts.</li>
+                    
+                <!-- </ul> -->
+            
+        </ul>
+        
+    
+        <p style="margin: 0.5em 0 0.2em 1em;"><i><strong>POI Rating System</strong></i></p>
+        <ul class="subpoints">
+            <li><strong>Pioneered a hybrid white-box and black-box model</strong> for life service POI rating system, replacing legacy recommendation scores with a multi-factor trust-based framework.</li>
+            
+                <!-- <ul class="subpoints"> -->
+                    
+                        <li>Integrated review NLP, user interactions, transaction outcomes, and refund/complaint signals into a unified scoring model.</li>
+                    
+                        <li>Applied <strong>Wilson confidence intervals</strong> and <strong>Newton cooling decay</strong> to stabilize scores over time and handle early review data sparsity.</li>
+                    
+                        <li>Adopted a <strong>dual-tower architecture with shared bottom layers</strong> and task-specific towers for user intent modeling and POI representation.</li>
+                    
+                        <li>Improved <strong>pairwise score consistency from 79.7% to 86.04%</strong>, with <strong>+3.27% GMV uplift for 5-star POIs</strong> and increased rating-user engagement.</li>
+                    
+                <!-- </ul> -->
+            
+        </ul>
+        
+    
+    
+            </ul>
+
+<div class="skills-inline"><strong>Skills:</strong> <strong>GMV (Uplift) Prediction, Strategy Optimization, LLM Agent, Multi-task Learning, SHAP, XGBoost, Rule Engine, Human-in-the-loop</strong></div>
+
+    </div>  <!-- end of subsection -->
+        
+        
+    <div class="subsection">
+    <div class="header-line">
+        <div>Machine Learning Research Engineer, <strong>AI Lab, Bytedance</strong></div>
+        <div>2019.7 - 2023.3</div>
+    </div>
+
+    
+        <p style="margin: 0.5em 0 0.2em 1em;"><i><strong>Video Tagging Infrastructure & Business Video Classification (Tiktok & Douyin)</strong></i></p>
+        <ul class="subpoints">
+            <li><strong>Built multi-modality video tagging platform</strong> as a core contributor, serving Douyin, TikTok, Vigo, Xigua, etc. Each fine-grained model generated over ￥2M/d in revenue, with ad PVR+46%.</li>
+            
+                <!-- <ul class="subpoints"> -->
+                    
+                        <li>End-to-end fusion tagging pipelines combined video, title, OCR, ASR, and user embedding features (see <a href="https://patents.google.com/patent/CN110688528A/en">Patent</a>).</li>
+                    
+                        <li>Developed and deployed <strong>multi-level multi-task models with focal loss, pair loss, hierarchical loss</strong> for better fine-grained label precision.</li>
+                    
+                        <li><strong>Optimized a highly complex video data annotation system</strong> featuring multi-level tag structures and automated workflows, leveraging semi-supervised hard mining techniques and human-in-the-loop strategies to intelligently prioritize difficult cases and trigger precise manual verification, resulting in a 60% improvement in labeling efficiency.</li>
+                    
+                <!-- </ul> -->
+            
+        </ul>
+        
+    
+        <p style="margin: 0.5em 0 0.2em 1em;"><i><strong>Hotspot Video Mining System (Douyin)</strong></i></p>
+        <ul class="subpoints">
+            <li><strong>Developed a comprehensive hotspot video mining system</strong>, covering <strong>multi-source video recall, NER, and relevance optimization</strong>.</li>
+            
+                <!-- <ul class="subpoints"> -->
+                    
+                        <li>Designed keyword and topic-based recall strategies, integrated <strong>multi-modality inputs (title, comments, OCR)</strong>, and introduced <strong>NER, event relevance and temporal filtering</strong> to enhance video ranking.</li>
+                    
+                        <li>Collaborated closely with product and data teams to accelerate video discovery and improve <strong>relevance and freshness</strong> in recommendation feeds.</li>
+                    
+                        <li>Improved <strong>video-event relevance from 33%->64%</strong>, increased daily hotspot video <stong>labeling efficiency by 387%</strong>, and contributed to a <strong>+8B daily VV uplift, with Main Feed CTR +1%</strong> hotspot deduplication and ranking refinements.</li>
+                    
+                <!-- </ul> -->
+            
+        </ul>
+        
+    
+        <p style="margin: 0.5em 0 0.2em 1em;"><i><strong>Restaurant Knowledge Graph Construction</strong></i></p>
+        <ul class="subpoints">
+            <li>Led the creation of a structured knowledge graph linking restaurants, cuisine tags, taste descriptors, and regional trends. Supported content recommendation, food discovery, and commercial labeling for Douyin search and POI recommendation.</li>
+            
+                <!-- <ul class="subpoints"> -->
+                    
+                        <li><strong>Extracted and clustered 10K+</strong> dish-related entities from user-generated content.</li>
+                    
+                <!-- </ul> -->
+            
+        </ul>
+        
+    
+    
+            </ul>
+
+<div class="skills-inline"><strong>Skills:</strong> <strong>Multi-Modal, Video Classification and Detection, Event Relevance, Entity/Landmark Recognition, Knowledge Graph, Data Annotation System</strong></div>
+
+    </div>  <!-- end of subsection -->
+        
+        
+    <div class="subsection">
+    <div class="header-line">
+        <div>Machine Learning Engineer Intern, <strong>AI Lab, Bytedance</strong></div>
+        <div>2018.4 - 2019.1</div>
+    </div>
+
+    
+        <p style="margin: 0.5em 0 0.2em 1em;"><i><strong>Content Moderation & Video Understanding</strong></i></p>
+        <ul class="subpoints">
+            <li>Developed short-video classification models for TikTok/Douyin content safety and tagging.</li>
+            
+                <!-- <ul class="subpoints"> -->
+                    
+                        <li>Trained a ResNet-based keyframe scoring model with scene-change filtering for automated video thumbnail selection.</li>
+                    
+                <!-- </ul> -->
+            
+        </ul>
+        
+    
+    
+            </ul>
+
+<div class="skills-inline"><strong>Skills:</strong> <strong>Video Classification, Entity Detection, Keyframe Detection, Screen Analysis</strong></div>
+
+    </div>  <!-- end of subsection -->
+        
+        
+    <div class="subsection">
+    <div class="header-line">
+        <div>Machine Learning Engineer Intern, <strong>Peninsula Info (AgilaNews, Acquired by Bigo Live)</strong></div>
+        <div>2016.7 - 2017.1</div>
+    </div>
+
+    
+        <p style="margin: 0.5em 0 0.2em 1em;"><i><strong>News Feed Recommendation</strong></i></p>
+        <ul class="subpoints">
+            <li>Built real-time news scraping engine (<strong>Scrapy+XPath+Redis</strong>) and personalized recommendation system.</li>
+            
+                <!-- <ul class="subpoints"> -->
+                    
+                        <li>Developed a <strong>Spark+LDA+Bayesian</strong> pipeline for homepage news recommendation, adapting to user long and short term interest shifts</li>
+                    
+                        <li>Applied <strong>ES+TF-IDF+Simhash</strong> for similary news duplicate and recommendation.</li>
+                    
+                <!-- </ul> -->
+            
+        </ul>
+        
+    
+    
+            </ul>
+
+<div class="skills-inline"><strong>Skills:</strong> <strong>User-Based Recommendation, Text Mining, SimHash, Scrapy, Redis, Spark, TF-IDF</strong></div>
+
+    </div>  <!-- end of subsection -->
+        
+        
+    <div class="subsection">
+    <div class="header-line">
+        <div>Research Assistant, <strong>LISA Lab, Renmin University of China</strong></div>
+        <div>2016.9 - 2018.6</div>
+    </div>
+
+    
+        <p style="margin: 0.5em 0 0.2em 1em;"><i><strong>Applied ML in Crowdsourcing and Finance</strong></i></p>
+        <ul class="subpoints">
+            <li>Published image analytics paper at IEEE BigData Workshop 2017 on predicting crowdfunding success. </li>
+            
+                <!-- <ul class="subpoints"> -->
+                    
+                        <li>Led a project on buy-point prediction in stock market using text/image-based ML features.</li>
+                    
+                <!-- </ul> -->
+            
+        </ul>
+        
+    
+    
+            </ul>
+
+    </div>  <!-- end of subsection -->
+        
+        
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        
+        
+        <div class="header-line">
+            <div><strong>School of Information, Renmin University of China</strong></div>
+            <div>2016.9 - 2019.6</div>
+        </div>
+        <div class="header-line" style="font-size: 0.9em; font-style: italic; font-weight: normal; margin-bottom: 0.5em;">
+            <div>Master of Management Science and Engineering (Big Data & Machine Learning)</div>
+        </div>
+        
+        <div class="header-line">
+            <div><strong>School of Information, Renmin University of China</strong></div>
+            <div>2012.9 - 2016.6</div>
+        </div>
+        <div class="header-line" style="font-size: 0.9em; font-style: italic; font-weight: normal; margin-bottom: 0.5em;">
+            <div>BSc in Computer Science and Technology</div>
+        </div>
+        
+    </div>
+
+    
+    <div class="section">
+        <h2>Achievements</h2>
+        <ul class="subpoints">
+            
+                
+                    <li style="margin-left: -1em;">Spot Bonus Awards at Bytedance: Innovation Pioneer (2020), Excellent Mentor (2021)</li>
+                
+                    <li style="margin-left: -1em;">Granted Patent: <a href="https://patents.google.com/patent/CN110688528A/en">Method, apparatus, electronic device, and medium for generating classification information of video (CN110688528A)</a></li>
+                
+                    <li style="margin-left: -1em;">Granted Patent: <a href="https://patents.google.com/patent/CN105450650B/en">A secure mobile electronic health record access control system (CN105450650B)</a></li>
+                
+                    <li style="margin-left: -1em;">Campus Ambassador: Bytedance Recruitment Promotion & Renmin University 75th Anniversary</li>
+                
+                    <li style="margin-left: -1em;">National First Prize of Best Applications, China University InfoSec Competition</li>
+                
+                    <li style="margin-left: -1em;">Second Prize, Beijing District, Mathematical Modeling Contest</li>
+                
+                    <li style="margin-left: -1em;">Winner of Sa Shixuan Scholarship & Outstanding Graduate of Renmin University</li>
+                
+                    <li style="margin-left: -1em;">National Undergraduate Innovation & Entrepreneurship Program: PubSub - A campus news collection and personalized recommendation platform</li>
+                
+            
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <ul class="subpoints">
+            
+                
+                    <li style="margin-left: -1em;">Programming: Python, SQL, GO, Java, C/C++, HTML, Linux shell, Git, Vim, Markdown</li>
+                
+                    <li style="margin-left: -1em;">LLM Applications: PE, CoT, LangChain, Coze, RAG & Chunk, Function Calling, Vector DB, LLMOps</li>
+                
+                    <li style="margin-left: -1em;">Frameworks: TensorFlow, PyTorch, MXNet, Scikit-learn, Matplotlib, HuggingFace, Elasticsearch, Spark, Kafka, Redis, etc.</li>
+                
+                    <li style="margin-left: -1em;">Languages: English, Mandarin Chinese (Native)</li>
+                
+            
+        </ul>
+    </div>
+
+</body>
+</html>
